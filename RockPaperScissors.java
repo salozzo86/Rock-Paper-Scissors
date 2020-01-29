@@ -73,7 +73,7 @@ public class RockPaperScissors {
         } else if (playerDecision.equals("yes")) {
             replay = true;
         } else {
-            System.out.println("I don't understand your response, goodbye.");
+            System.out.println("I don't understand your response, goodbye!");
             replay = false;
         }
     }
